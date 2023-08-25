@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="./index.css" type="text/css">
+    <script src="https://kit.fontawesome.com/74b3218d40.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/652cbbb4b59a4462b6f47c4fe77c3d06.png" class="logo">
+            <ul id="sidemenu">
+                <li> <a href="#header">Home</a></li>
+                <li> <a href="#about">About</a></li>
+                <li> <a href="#services">Services</a></li>
+                <li> <a href="#portfolio">My Work</a></li>
+                <li> <a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav> 
+        <div class="header-text">
+            <h1> Hai, I'm <span>Raghul</span></h1>
+            <p> M<span>E</span>R<span>N</span> Stack Developer</p>
+            
+        </div>
+    </div>
+    <span><a href="#header"><i class="fa-solid fa-arrow-up"></i></a></span>
+    <span><a href="#about"> <i class="fa-solid fa-arrow-down"></i></a></span>
+
+   </div>
+
+   <!-- about page -->
+
+
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/background img.jpeg"alt="image" class="imgg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title"> Abo<span>u</span>t Me</h1>
+                <p> I am a passionate and motivated recent graduate with a strong fountatiion in web development.My proficiency in <span>html,css,java script,Bootstrap,node.js,react.js mongodb</span> has equipped me with the essential skills tocreate dynamic and responsive web applications.Eager to contibutemy fresh perspective and dedication to crafting engaging user experiences.Ready to bring fresh ideas,collaborate,and learn continuously.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li> <span>HTML </span><br></li>
+                        <li> <span>css </span><br></li>
+                        <li> <span>Java script </span><br></li>
+                        <li> <span>React.js </span><br></li>
+                        <li> <span>node.js </span><br></li>                       
+                        <li> <span>Mongodb </span><br></li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education" >
+                    <ul>
+                        <li> <span>UG </span> <br> 2019-2023<br>Sri Ramakrishna Institute of Technology,Coimbatore</li>
+                        <li> <span>Stream </span><br>Computer Science and Engineering</li>
+                        <li> <span>CGPA </span><br>7.9</li>
+                    </ul>
+                </div>
+
+            </div>
+
+           </div>
+    </div>
+    <span><a href="#header"><i class="fa-solid fa-arrow-up"></i></a></span>
+    <span><a href="#services"> <i class="fa-solid fa-arrow-down"></i></a></span>
+   </div>
+
+
+   
+<!-- Services paage -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title"> My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-html5"></i>
+                <h2> HTML/CSS</h2>
+                <p>By using html/css I have the skill for creating static attrative webpages,by implementing the new vrsion of html 5. </p>
+                <a href="#" class="learn">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-js"></i>
+                <h2> Java Script</h2>
+                <p>JavaScript is a dynamic computer programming language. It is lightweight and most commonly used as a part of web pages, whose implementations allow client-side script to interact with the user and make dynamic pages. It is an interpreted programming language with object-oriented capabilities.</p>
+                <a href="#"class="learn">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-react"></i>
+                <h2> React.js</h2>
+                <p>While building client-side application, a team of Facebook developers found that DOM is slow. Document Object Model (DOM) is an application programming interface(API) for HTML and XML documents. It defines the logical structure of documents and how a document is accessed and manipulated). To make it faster, React implements a virtual DOM which is basically a DOM tree representation in JavaScript, and React was invented.</p>
+                <a href="#"class="learn">Learn More</a>
+            </div>
+            
+        </div>
+
+    </div>
+    <span><a href="#about"><i class="fa-solid fa-arrow-up"></i></a></span>
+    <span><a href="#portfolio"> <i class="fa-solid fa-arrow-down"></i></a></span>
+</div>
+
+
+<!-- my work -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"> My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./images/work2.jpeg">
+                <div class="layer">
+
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="./images/work 1.jpeg">
+                <div class="layer">
+                    <h3> Attractive Web page</h3>
+                    <p> We all know that creative juices cannot flow endlessly.... "There is no such thing as a boring project...."Have no fear of perfection—you'll never reach it."</p>
+                    <a href="#"><i class="fa-solid fa-link"></i> </a>
+                </div>
+               
+            </div>
+            <div class="work">
+                <img src="./images/work3.jpeg">
+                <div class="layer">
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <span><a href="#services"><i class="fa-solid fa-arrow-up"></i></a></span>
+    <span><a href="#contact"> <i class="fa-solid fa-arrow-down"></i></a></span>
+</div>
+
+
+<!-- contact -->
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"> Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>raghultom27@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>6381432706</p>
+                <div class="social-icons">
+                    <a href="#" ><i class="fa-brands fa-linkedin"></i></a>
+                    <a href= "#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/Raghultom" target="_blank" ><i class="fa-brands fa-github"></i></a>
+                   
+
+                </div>
+                <a href="./Resume/Resume Raghul (2).pdf"  target="_blank" class="btn btn1">Download CV</a>
+
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                      <input type="text" name="Name" placeholder="Your Name" reuired>
+                      <input type="text" name="email" placeholder="Your E-mail Id" required>
+                      <textarea name="Message"  rows="0" placeholder="Your Message"></textarea>
+                      <button type="submit" class="btn btn1 btn2"> Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+
+        </div>
+        <span><a href="#header"><i class="fa-solid fa-house-chimney"></i></a></span>
+    </div>
+    
+    <div class="copyright">
+        <p> copyright ©️ Raghul 2023 All Rights Reserved</p>
+    </div>
+
+</div>
+
+
+
+
+
+
+   <script src="./index.js"> </script>
+</body>
+</html>
