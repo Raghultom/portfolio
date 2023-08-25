@@ -24,8 +24,14 @@ function openmenu(){
 }
 function closemenu(){
     sidemenu.style.right="-200px";
+
+    
     
 }
+ sidemenu.addEventListener("click", function() {
+       
+        setTimeout(closemenu, 1000);
+    });
 
 
 // portfolio contact form
