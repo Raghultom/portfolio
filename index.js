@@ -17,25 +17,7 @@ function opentab(tabname){
 // small screen
 
 
-var sidemenu= document.getElementById("sidemenu");
-function openmenu(){
-    sidemenu.style.right="0";
-    sidemenu.addEventListener("click", function() {
-       
-        setTimeout(closemenu, 1000);
-    });
 
-}
-function closemenu(){
-    sidemenu.style.right="-200px";
-}
-sidemenu.addEventListener("click", function() {
-    // Add a delay of 2 seconds using setTimeout
-    setTimeout(function() {
-        closemenu(); // Call the closemenu function after the delay
-    }, 1000);
-});
- 
 
 
 // portfolio contact form
